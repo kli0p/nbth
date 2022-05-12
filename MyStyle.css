@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/**********landing page*****************/
+   
+
+body, html {height: 100%}
+.bgimg {
+  background-image: url("https://e.top4top.io/p_2007h7zi42.jpg");
+  min-height: 100%;
+  background-position: center;
+   background-repeat: repeat ;
+}
+
+.header {
+  font-size: 10vh;
+  color: rgb(110, 168, 110);
+  background-color: rgba(250, 235, 215, 0.61);
+  text-align: center;
+  border-radius: 13px;
+  width: 6em;
+}
+.header h1 {
+  font-family: 'Reem Kufi', sans-serif;
+  font-size: 34px;
+}
+
+.header p {
+
+    color:rgb(129, 96, 96);
+    font-family: 'Reem Kufi', sans-serif
+
+}
+
+.nav {
+  float: left;
+  top: 0;
+  transform: translateX(-10800px);
+  text-align: right;
+  width: auto;
+  background-color: rgba(110, 168, 110, 0.637);
+  border-radius: 8px;
+  padding: 8px;
+  position: fixed;
+  z-index: 1;
+  font-family: 'Reem Kufi', sans-serif;
+  font-size: 15px;
+}
+.nav a {
+   color: #000;
+}
+.nav a:hover {
+   color: rgb(129, 96, 96);
+}
+.box .list-Icont {
+  background-color: rgba(129, 96, 96, 0.7);
+  border-radius: 8px ;
+  padding: 5px;
+}
+.list-Icont {
+  width: 35PX;
+  float: left;
+  margin: 30px;
+  top: 0;
+  position: fixed;
+ 
+}
+#list {
+ display: none;
+}
+#list:checked + nav{
+  transform: translate(80px , 70px); 
+  transition: all 00ms ease-in-out;
+}
+
+/*********main ****************/ 
+.contener {
+background-image : url(https://e.top4top.io/p_2007h7zi42.jpg);
+background-attachment:fixed;
+
+}
+
+.main {
+
+    background-color: rgba(250, 235, 215, 0.61);
+    height: auto;
+    width: 70vw;
+    margin: auto;
+}
+
+.section h3{
+
+    height: 40px;
+    padding: 8px;
+    border-radius: 18px ;
+    font-size: 20px;
+    font-weight: 100;
+    background-color: rgba(110, 168, 110, 0.563);
+    margin: 30px;
+    float: right;
+    text-align: center;
+    font-family: 'Reem Kufi', sans-serif
+}
+
+.section::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/**********artcile***************/
+
+.article {
+
+    width: 80%;
+    text-align: right;
+    margin-right: 23px;
+    margin-left: 13px;
+    padding: 5px;
+}
+.article h4 {
+    color: rgb(129, 95, 95);
+    font-family: 'Reem Kufi', sans-serif
+}
+
+
+
+/*******STOY********/
+
+.st-box {
+    width: 45%;
+    height: auto;
+    padding: 10px;
+    margin-right: 23px;
+    margin-top: 32px;
+    margin-bottom: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 13px;
+    
+    float: right;
+}
+.st-box:hover {
+    box-shadow: 3px 16px 20px -10px #aaa
+}
+.stor-head {
+    float: right;
+    font-family: 'Reem Kufi', sans-serif
+}
+.clean::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.stor-span {
+    font-size: 15px;
+    float: right;
+    color:  rgba(129, 96, 96, 0.5);
+    display: block;
+    margin-bottom: 12px;
+    font-family: 'Reem Kufi', sans-serif
+}
+.stor-det {
+    margin-top: 12px;
+    display: none;
+    margin: 20px;
+    font-size: 16px;
+    color: #000;
+    text-align: center;
+    font-family: 'Reem Kufi', sans-serif
+}
+.stor-span:hover {
+    color: rgba(110, 168, 110, 0.563);
+}
+.stor-span:hover ~ .stor-det{
+    display: block;
+}
+.but {
+    background-color: rgba(129, 96, 96 , 0.5);
+    color: #fff;
+    width: auto;
+    height: 30px;
+    font-size: 15px;
+    margin: 20px;
+    padding: 3px;
+    border-radius: 8px;
+    border: none;
+    float: right;
+    font-family: 'Reem Kufi', sans-serif
+}
+.but:hover {
+    background-color: rgba(110, 168, 110, 0.563);
+}
+.stor-link {
+    color: #000;
+}
+
+/**********footer****************/
+
+.footer {
+    background-color: rgb(110, 168, 110);
+    font-size: 15px;
+    text-align: right;
+    padding: 3px;
+}
